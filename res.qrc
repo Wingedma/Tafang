@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>firstpage.jpg</file>
+        <file>startbutton.jpg</file>
+        <file>continue.jpg</file>
+        <file>secondpage.jpg</file>
+        <file>tower1.jpg</file>
+        <file>towerbutton.jpg</file>
+        <file>monster.jpg</file>
+    </qresource>
+</RCC>
