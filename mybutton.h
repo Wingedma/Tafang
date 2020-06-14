@@ -3,12 +3,14 @@
 
 #include <QWidget>
 #include <QPushButton>
+#include "thirdwindow.h"
 
 class MyButton : public QPushButton
 {
     Q_OBJECT
 public:
     MyButton(QString pix);
+    friend class thirdwindow;
 
 signals:
 

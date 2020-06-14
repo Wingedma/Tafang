@@ -9,6 +9,7 @@
 #include <QPaintEvent>
 #include <QPushButton>
 #include "myobject.h"
+#include "mybutton.h"
 
 class thirdwindow : public QMainWindow
 {
@@ -18,7 +19,7 @@ public:
 
     void set_tower();
     void paintEvent(QPaintEvent*);
-    void addMyObject();
+    void addMyObject;
     void updateScene();
 private:
     QList<Tower*> tower_list;

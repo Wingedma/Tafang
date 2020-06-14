@@ -1,5 +1,6 @@
 #include "mybutton.h"
 #include <QPixmap>
+#include "thirdwindow.h"
 
 MyButton::MyButton(QString pix):QPushButton(0){
     QPixmap pixmap(pix);
